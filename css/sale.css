@@ -1,0 +1,24 @@
+div.sale{
+    width:100%;
+    height: 300px;
+    background-color: #0099ff;
+    padding-top: 105px;
+    padding-bottom: 80px;
+}
+div.sale>h1{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: "myriad pro regular";
+    text-transform: uppercase;
+    font-size: 50px;
+}
+div.sale>h2{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: "myriad pro regular";
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 15px;
+}

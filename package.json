@@ -9,6 +9,8 @@
   "author": "mohamad nst",
   "license": "ISC",
   "dependencies": {
+    "animate.css": "^4.1.1",
+    "font-awesome": "^4.7.0",
     "live-server": "^1.2.2"
   }
 }

@@ -1,0 +1,77 @@
+div.menu1{
+    width:100% ;
+    height: 50px;
+    background-color: #0099ff;
+    display: flex;
+}
+div.menu1>div.left{
+    width: 32%;
+    height: inherit;
+    display: flex;
+    justify-content: flex-end;
+}
+div.menu1>div.left>div{
+    width: auto;
+    height:inherit ;
+}
+div.menu1>div.left>div:nth-of-type(1){
+    padding-right: 20px;
+}
+div.menu1>div.left>div:nth-of-type(2){
+    padding-right: 10px;
+}
+div.menu1>div.left>div>a{
+    width: 100%;
+    height: inherit;
+    color: white;
+    text-transform: capitalize;
+    line-height: 50px;
+    font-family: "BankGothic Lt BT";
+    cursor: pointer;
+    transition: all 300ms linear;
+    font-size: 16px;
+}
+div.menu1>div.left>div>a>i:nth-of-type(1){
+    padding-right: 5px;
+    vertical-align:center;
+}
+div.menu1>div.left>div>a>i:nth-of-type(2){
+    padding-right: 5px;
+    vertical-align:middle;
+}
+div.menu1>div.left>div:hover>a{
+    color: black;
+}
+div.menu1>div.center{
+    width: 15%;
+    height: inherit;
+}
+div.menu1>div.right{
+    width: 53%;
+    height: inherit;
+    display: flex;
+    justify-content: flex-start;
+
+}
+div.menu1>div.right>div{
+    width: auto;
+    height: inherit;
+    padding: 0 15px;
+}
+div.menu1>div.right>div>a{
+    width: 100%;
+    height: inherit;
+    line-height: 50px;
+    font-family: "BankGothic Lt BT";
+    cursor: pointer;
+    text-transform: capitalize;
+    color: white;
+    font-size: 16px;
+    transition: all 300ms linear;
+}
+div.menu1>div.right>div>a>i{
+    padding-right: 10px;
+}
+div.menu1>div.right>div:hover>a{
+    color: black;
+}

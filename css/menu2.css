@@ -1,0 +1,61 @@
+div.menu2{
+    width: 100%;
+    height: 90px;
+    display: flex;
+}
+div.menu2>div.left{
+    width: 40%;
+    height: inherit;
+}
+div.menu2>div.left>h1{
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    font-family: "BankGothic Lt BT";
+    font-weight: bold;
+    line-height: 90px;
+}
+div.menu2>div.left>h1::first-letter{
+    color: #0099ff;
+}
+div.menu2>div.center{
+    width: 35%;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+}
+div.menu2>div.center>div{
+    width:auto;
+    height: inherit;
+}
+div.menu2>div.center>div>a{
+    width: 100%;
+    height: 100%;
+    line-height: 90px;
+    text-transform: uppercase;
+    font-family: "BankGothic Lt BT";
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+div.menu2>div.center>div:nth-of-type(1)>a{
+    color: #0099ff;
+}
+div.menu2>div.right{
+    width: 25%;
+    height: 90px;
+    padding-left: 60px;
+}
+div.menu2>div.right>a{
+    width:auto;
+    height: inherit;
+    line-height: 90px;
+    text-align: center;
+    font-size: 25px;
+    font-family: "myriad pro regular";
+    color: black;
+}
+div.menu2>div.right>a>i{
+    padding: 0 5px;
+    font-size: 20px;
+}

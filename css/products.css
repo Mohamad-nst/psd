@@ -1,4 +1,129 @@
 div.products{
     width: 100%;
     height: auto;
+    padding-top: 100px;
+background: url("../images/black wall.jpg") no-repeat center center fixed;
+    background-size: cover;
+    padding-bottom: 150px;
+}
+div.products>h1{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-family: "myriad pro regular";
+    font-size: 22pt;
+    margin-bottom: 120px;
+    box-sizing: content-box;
+}
+div.products>h1>span{
+    color: #0099ff;
+}
+div.products>div{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+div.products>div>div{
+    background-color: white;
+    width: 25%;
+    height: inherit;
+    margin: 0 10px;
+    position: relative;
+    overflow: hidden;
+}
+div.products>div>div>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+div.products>div>div>div.cover{
+    width: 100%;
+    height: 87%;
+    background-color:#666666 ;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    display: flex;
+    transition: all 300ms linear;
+}
+div.products>div>div>div.cover>div.top{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    top: 30%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+div.products>div>div>div.cover>div.top>div{
+    width: 20%;
+    height: inherit;
+    margin: 0 2%;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+div.products>div>div>div.cover>div.top>div>i{
+    font-size: 25px;
+    line-height: 50px;
+    color: white;
+}
+div.products>div>div>div.cover>div.bottom{
+    width:68% ;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 55%;
+    left: calc(50% - 68%/2);
+    cursor: pointer;
+}
+div.products>div>div>div.cover>div.bottom>h1{
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+    font-family: "myriad pro regular";
+    color: white;
+    text-transform: uppercase;
+}
+div.products>div>div>div.cover>div.bottom>h1>i{
+    padding-right: 15px;
+}
+div.products>div>div:hover>div.cover{
+    left: 0;
+}
+div.products>div>div>div.price{
+    width: 75%;
+    height: 13%;
+    background-color: #0099ff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding-left: 15px;
+}
+div.products>div>div>div.price>h1{
+    font-family: "myriad pro regular";
+    text-transform: uppercase;
+    color: whitesmoke;
+    text-align: left;
+    line-height: 52px;
+    font-size: 22px;
+}
+div.products>div>div>div.dolar{
+    width: 25%;
+    height: 13%;
+    background-color: #99cccc;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+div.products>div>div>div.dolar>h1{
+    font-family: "myriad pro regular";
+    text-transform: uppercase;
+    color: whitesmoke;
+    text-align: center;
+    line-height: 52px;
+    font-size: 22px;
 }

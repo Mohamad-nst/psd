@@ -1,24 +1,78 @@
-div.sale{
-    width:100%;
-    height:auto;
-    background-color: #0099ff;
-    padding-top: 110px;
-    padding-bottom: 80px;
+@media only screen and (min-width: 1200px){
+    div.sale{
+        width:100%;
+        height:auto;
+        background-color: #0099ff;
+        padding-top: 110px;
+        padding-bottom: 80px;
+    }
+    div.sale>h1{
+        width: 100%;
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+        font-size: 44px;
+        font-family: "roboto light";
+    }
+    div.sale>h2{
+        width: 100%;
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+        font-size: 30px;
+        margin-top: 15px;
+        font-family: "roboto light";
+    }
 }
-div.sale>h1{
-    width: 100%;
-    text-align: center;
-    color: white;
-    text-transform: uppercase;
-    font-size: 44px;
-    font-family: "roboto light";
+@media only screen and (min-width: 990px) and (max-width: 1200px){
+    div.sale{
+        width:100%;
+        height:auto;
+        background-color: #0099ff;
+        padding-top: 110px;
+        padding-bottom: 80px;
+    }
+    div.sale>h1{
+        width: 100%;
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+        font-size: 44px;
+        font-family: "roboto light";
+    }
+    div.sale>h2{
+        width: 100%;
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+        font-size: 30px;
+        margin-top: 15px;
+        font-family: "roboto light";
+    }
 }
-div.sale>h2{
-    width: 100%;
-    text-align: center;
-    color: white;
-    text-transform: uppercase;
-    font-size: 30px;
-    margin-top: 15px;
-    font-family: "roboto light";
+@media only screen and (min-width: 768px) and (max-width: 990px){
+    div.sale{
+        width:100%;
+        height:auto;
+        background-color: #0099ff;
+        padding-top: 110px;
+        padding-bottom: 80px;
+    }
+    div.sale>h1{
+        width: 100%;
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+        font-size: 44px;
+        font-family: "roboto light";
+    }
+    div.sale>h2{
+        width: 100%;
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+        font-size: 30px;
+        margin-top: 15px;
+        font-family: "roboto light";
+    }
 }

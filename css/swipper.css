@@ -1,118 +1,351 @@
-html,
-body {
-    position: relative;
-    height: 100%;
-}
+@media only screen and (min-width: 1200px) {
+    html,
+    body {
+        position: relative;
+        height: 100%;
+    }
 
-body {
-    background: #eee;
-    color: #000;
-    margin: 0;
-    padding: 0;
-}
-.swiper {
-    width: 100%;
-    height: 770px;
-    position: relative;
-}
+    body {
+        background: #eee;
+        color: #000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper {
+        width: 100%;
+        height: 770px;
+        position: relative;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
 
-.swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    .swiper-slide> img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        background-color: #666666;
+    }
+    div.swiper-button-next,div.swiper-button-prev{
+        color: white;
+        position: absolute;
+        top: 70%;
+    }
+    div.swiper-pagination{
+        position: absolute;
+        color: #0099ff;
+        bottom:-225px;
+        font-size: 24px;
+        font-family: "roboto";
+    }
+    div.swiper-slide>h1{
+        position: absolute;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        top:185px ;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+        font-size: 56px;
+        font-family: "Roboto Thin";
+    }
+    div.swiper-slide>h1:nth-of-type(2){
+        top: 320px;
+        font-size: 56px;
+        font-family: "roboto light";
+    }
+    div.swiper-slide>h1:nth-of-type(1)>span{
+        color: #0099ff;
+        font-size: 56px;
+        font-family: "Roboto Thin";
+    }
+    div.swiper-slide>h1:nth-of-type(2)>span{
+        color: #0099ff;
+        font-size: 56px;
+        font-family: "roboto light";
+    }
+    div.swiper-slide>p:nth-of-type(1){
+        position: absolute;
+        width: 60%;
+        height: auto;
+        text-align:center;
+        top: 450px;
+        line-height: 40px;
+        color: white;
+        font-family: "roboto regular";
+        font-size: 18px;
 
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
+    }
+    div.swiper-slide>p:nth-of-type(2){
+        position: absolute;
+        width: 50%;
+        height: auto;
+        text-align: center;
+        top: 490px;
+        line-height: 40px;
+        color: white;
+        font-family: "roboto regular";
+        font-size: 18px;
+    }
+    div.swiper-slide>p:nth-of-type(3){
+        position: absolute;
+        width: 40%;
+        height: auto;
+        text-align: center;
+        top: 530px;
+        line-height: 40px;
+        color: white;
+        font-family: "roboto regular";
+        font-size: 18px;
+    }
 }
-.swiper-slide> img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    background-color: #666666;
-}
-div.swiper-button-next,div.swiper-button-prev{
-    color: white;
-    position: absolute;
-    top: 70%;
-}
-div.swiper-pagination{
-    position: absolute;
-    color: #0099ff;
-    bottom:-225px;
-    font-size: 24px;
-    font-family: "roboto";
-}
-div.swiper-slide>h1{
-    position: absolute;
-    width: 100%;
-    height: auto;
-    text-align: center;
-    top:185px ;
-    text-align: center;
-    text-transform: uppercase;
-    color: white;
-    font-size: 56px;
-    font-family: "Roboto Thin";
-}
-div.swiper-slide>h1:nth-of-type(2){
-    top: 320px;
-    font-size: 56px;
-    font-family: "roboto light";
-}
-div.swiper-slide>h1:nth-of-type(1)>span{
-    color: #0099ff;
-    font-size: 56px;
-    font-family: "Roboto Thin";
-}
-div.swiper-slide>h1:nth-of-type(2)>span{
-    color: #0099ff;
-    font-size: 56px;
-    font-family: "roboto light";
-}
-div.swiper-slide>p:nth-of-type(1){
-    position: absolute;
-    width: 60%;
-    height: auto;
-    text-align: justify;
-    top: 450px;
-    line-height: 40px;
-    color: white;
-    font-family: "roboto regular";
-    font-size: 18px;
+@media only screen and (min-width: 990px) and (max-width: 1200px){
+    html,
+    body {
+        position: relative;
+        height: 100%;
+    }
 
-}
-div.swiper-slide>p:nth-of-type(2){
-    position: absolute;
-    width: 50%;
-    height: auto;
-    text-align: justify;
-    top: 490px;
-    line-height: 40px;
-    color: white;
-    font-family: "roboto regular";
-    font-size: 18px;
-}
-div.swiper-slide>p:nth-of-type(3){
-    position: absolute;
-    width: 40%;
-    height: auto;
-    text-align: justify;
-    top: 530px;
-    line-height: 40px;
-    color: white;
-    font-family: "roboto regular";
-    font-size: 18px;
-}
+    body {
+        background: #eee;
+        color: #000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper {
+        width: 100%;
+        height: 770px;
+        position: relative;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
 
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    .swiper-slide> img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        background-color: #666666;
+    }
+    div.swiper-button-next,div.swiper-button-prev{
+        color: white;
+        position: absolute;
+        top: 70%;
+    }
+    div.swiper-pagination{
+        position: absolute;
+        color: #0099ff;
+        bottom:-225px;
+        font-size: 24px;
+        font-family: "roboto";
+    }
+    div.swiper-slide>h1{
+        position: absolute;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        top:185px ;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+        font-size: 56px;
+        font-family: "Roboto Thin";
+    }
+    div.swiper-slide>h1:nth-of-type(2){
+        top: 320px;
+        font-size: 56px;
+        font-family: "roboto light";
+    }
+    div.swiper-slide>h1:nth-of-type(1)>span{
+        color: #0099ff;
+        font-size: 56px;
+        font-family: "Roboto Thin";
+    }
+    div.swiper-slide>h1:nth-of-type(2)>span{
+        color: #0099ff;
+        font-size: 56px;
+        font-family: "roboto light";
+    }
+    div.swiper-slide>p:nth-of-type(1){
+        position: absolute;
+        width: 80%;
+        height: auto;
+        text-align: center;
+        top: 450px;
+        line-height: 40px;
+        color: white;
+        font-family: "roboto regular";
+        font-size: 18px;
+
+    }
+    div.swiper-slide>p:nth-of-type(2){
+        position: absolute;
+        width: 70%;
+        height: auto;
+        text-align: center;
+        top: 490px;
+        line-height: 40px;
+        color: white;
+        font-family: "roboto regular";
+        font-size: 18px;
+    }
+    div.swiper-slide>p:nth-of-type(3){
+        position: absolute;
+        width: 60%;
+        height: auto;
+        text-align: center;
+        top: 530px;
+        line-height: 40px;
+        color: white;
+        font-family: "roboto regular";
+        font-size: 18px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 990px){
+    html,
+    body {
+        position: relative;
+        height: 100%;
+    }
+    body {
+        background: #eee;
+        color: #000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper {
+        width: 100%;
+        height: 770px;
+        position: relative;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    .swiper-slide> img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        background-color: #666666;
+    }
+    div.swiper-button-next,div.swiper-button-prev{
+        color: white;
+        position: absolute;
+        top: 70%;
+    }
+    div.swiper-pagination{
+        position: absolute;
+        color: #0099ff;
+        bottom:-225px;
+        font-size: 24px;
+        font-family: "roboto";
+    }
+    div.swiper-slide>h1{
+        position: absolute;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        top:185px ;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+        font-size: 56px;
+        font-family: "Roboto Thin";
+    }
+    div.swiper-slide>h1:nth-of-type(2){
+        top: 320px;
+        font-size: 50px;
+        font-family: "roboto light";
+    }
+    div.swiper-slide>h1:nth-of-type(1)>span{
+        color: #0099ff;
+        font-size: 56px;
+        font-family: "Roboto Thin";
+    }
+    div.swiper-slide>h1:nth-of-type(2)>span{
+        color: #0099ff;
+        font-size: 56px;
+        font-family: "roboto light";
+    }
+    div.swiper-slide>p:nth-of-type(1){
+        position: absolute;
+        width: 90%;
+        height: auto;
+        text-align: center;
+        top: 450px;
+        line-height: 40px;
+        color:white;
+        font-family: "roboto regular";
+        font-size: 16px;
+    }
+    div.swiper-slide>p:nth-of-type(2){
+        position: absolute;
+        width: 80%;
+        height: auto;
+        text-align: center;
+        top: 490px;
+        line-height: 40px;
+        color: white;
+        font-family: "roboto regular";
+        font-size: 16px;
+    }
+    div.swiper-slide>p:nth-of-type(3){
+        position: absolute;
+        width: 70%;
+        height: auto;
+        text-align: center;
+        top: 530px;
+        line-height: 40px;
+        color:white;
+        font-family: "roboto regular";
+        font-size: 16px;
+    }
+}

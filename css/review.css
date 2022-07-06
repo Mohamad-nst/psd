@@ -1,96 +1,294 @@
-div.review{
-    width: 100%;
-    height: auto;
-    padding-top: 80px;
-    background-color: white;
-    box-sizing: content-box;
-    padding-bottom: 100px;
+@media only screen and (min-width: 1200px){
+    div.review{
+        width: 100%;
+        height: auto;
+        padding-top: 80px;
+        background-color: white;
+        box-sizing: content-box;
+        padding-bottom: 100px;
+    }
+    div.review>h1{
+        width: 100%;
+        height: auto;
+        color: #666666;
+        font-family: "roboto regular";
+        font-size: 40px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom:75px ;
+    }
+    div.review>h1>span{
+        color: #0099ff;
+        padding-left: 25px;
+    }
+    div.review>div{
+        width: 100%;
+        height: 450px;
+        display: flex;
+        justify-content: center;
+    }
+    div.review>div>div{
+        width:30%;
+        height:450px;
+        margin: 0 2%;
+        position: relative;
+    }
+    div.review>div>div>div.circle{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: #666666;
+        position: absolute;
+        left: calc(50% - 50%/2);
+        margin-bottom: 30px;
+    }
+    div.review>div>div>p{
+        width: 80%;
+        height: auto;
+        position: absolute;
+        left:10% ;
+        text-align: justify;
+        top: 50%;
+        color: black;
+        font-size: 14px;
+        font-family: "myriad pro regular";
+    }
+    div.review>div>div>h2{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        position: absolute;
+        bottom: 20%;
+        text-transform: uppercase;
+        color: #0099ff;
+        font-family: "roboto light";
+        font-size: 20px;
+    }
+    div.review>div>div>h3{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        position: absolute;
+        bottom: 15%;
+        text-transform: capitalize;
+        color: black;
+        font-family: "roboto light";
+        font-size: 14px;
+    }
+    div.review>div>div>div.bottom{
+        width: 100%;
+        height: 10%;
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        justify-content:center ;
+        align-items: center;
+    }
+    div.review>div>div>div.bottom>div{
+        width: 30px;
+        height: 30px;
+        background-color: #3399cc;
+        border-radius: 50%;
+        margin: 0 4px;
+        border: 2px solid black;
+    }
+    div.review>div>div>div.bottom>div:nth-of-type(5){
+        background-color: white;
+    }
 }
-div.review>h1{
-    width: 100%;
-    height: auto;
-    color: #666666;
-    font-family: "roboto regular";
-    font-size: 40px;
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom:75px ;
+@media only screen and (min-width: 990px) and (max-width: 1200px){
+    div.review{
+        width: 100%;
+        height: auto;
+        padding-top: 80px;
+        background-color: white;
+        box-sizing: content-box;
+        padding-bottom: 100px;
+    }
+    div.review>h1{
+        width: 100%;
+        height: auto;
+        color: #666666;
+        font-family: "roboto regular";
+        font-size: 40px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom:75px ;
+    }
+    div.review>h1>span{
+        color: #0099ff;
+        padding-left: 25px;
+    }
+    div.review>div{
+        width: 100%;
+        height: 450px;
+        display: flex;
+        justify-content: center;
+    }
+    div.review>div>div{
+        width:30%;
+        height:450px;
+        margin: 0 2%;
+        position: relative;
+    }
+    div.review>div>div>div.circle{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: #666666;
+        position: absolute;
+        left: calc(50% - 200px/2);
+        margin-bottom: 30px;
+    }
+    div.review>div>div>p{
+        width: 80%;
+        height: auto;
+        position: absolute;
+        left:10% ;
+        text-align: justify;
+        top: 50%;
+        color: black;
+        font-size: 14px;
+        font-family: "myriad pro regular";
+    }
+    div.review>div>div>h2{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        position: absolute;
+        bottom: 16%;
+        text-transform: uppercase;
+        color: #0099ff;
+        font-family: "roboto light";
+        font-size: 20px;
+    }
+    div.review>div>div>h3{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        position: absolute;
+        bottom: 11%;
+        text-transform: capitalize;
+        color: black;
+        font-family: "roboto light";
+        font-size: 14px;
+    }
+    div.review>div>div>div.bottom{
+        width: 100%;
+        height: 10%;
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        justify-content:center ;
+        align-items: center;
+    }
+    div.review>div>div>div.bottom>div{
+        width: 30px;
+        height: 30px;
+        background-color: #3399cc;
+        border-radius: 50%;
+        margin: 0 4px;
+        border: 2px solid black;
+    }
+    div.review>div>div>div.bottom>div:nth-of-type(5){
+        background-color: white;
+    }
 }
-div.review>h1>span{
-    color: #0099ff;
-    padding-left: 25px;
-}
-div.review>div{
-    width: 100%;
-    height: 450px;
-    display: flex;
-    justify-content: center;
-}
-div.review>div>div{
-    width:30%;
-    height:450px;
-    margin: 0 2%;
-    position: relative;
-}
-div.review>div>div>div.circle{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background-color: #666666;
-    position: absolute;
-    left: calc(50% - 50%/2);
-    margin-bottom: 30px;
-}
-div.review>div>div>p{
-    width: 80%;
-    height: auto;
-    position: absolute;
-    left:10% ;
-    text-align: justify;
-    top: 50%;
-    color: black;
-    font-size: 14px;
-    font-family: "myriad pro regular";
-}
-div.review>div>div>h2{
-    width: 100%;
-    height: auto;
-    text-align: center;
-    position: absolute;
-    bottom: 20%;
-    text-transform: uppercase;
-    color: #0099ff;
-    font-family: "roboto light";
-    font-size: 20px;
-}
-div.review>div>div>h3{
-    width: 100%;
-    height: auto;
-    text-align: center;
-    position: absolute;
-    bottom: 15%;
-    text-transform: capitalize;
-    color: black;
-    font-family: "roboto light";
-    font-size: 14px;
-}
-div.review>div>div>div.bottom{
-    width: 100%;
-    height: 10%;
-    position: absolute;
-    bottom: 0;
-    display: flex;
-    justify-content:center ;
-    align-items: center;
-}
-div.review>div>div>div.bottom>div{
-    width: 30px;
-    height: 30px;
-    background-color: #3399cc;
-    border-radius: 50%;
-    margin: 0 4px;
-    border: 2px solid black;
-}
-div.review>div>div>div.bottom>div:nth-of-type(5){
-    background-color: white;
+@media only screen and (min-width: 768px) and (max-width: 990px){
+    div.review{
+        width: 100%;
+        height: auto;
+        padding-top: 80px;
+        background-color: white;
+        box-sizing: content-box;
+        padding-bottom: 100px;
+    }
+    div.review>h1{
+        width: 100%;
+        height: auto;
+        color: #666666;
+        font-family: "roboto regular";
+        font-size: 40px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom:75px ;
+    }
+    div.review>h1>span{
+        color: #0099ff;
+        padding-left: 25px;
+    }
+    div.review>div{
+        width: 100%;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+    }
+    div.review>div>div{
+        width:30%;
+        height:450px;
+        margin: 0 2%;
+        position: relative;
+    }
+    div.review>div>div>div.circle{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: #666666;
+        position: absolute;
+        left: calc(50% - 200px/2);
+        margin-bottom: 30px;
+    }
+    div.review>div>div>p{
+        width: 80%;
+        height: auto;
+        position: absolute;
+        left:10% ;
+        text-align: justify-all;
+        top: 50%;
+        color: black;
+        font-size: 14px;
+        font-family: "myriad pro regular";
+    }
+    div.review>div>div>h2{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        position: absolute;
+        bottom: 14%;
+        text-transform: uppercase;
+        color: #0099ff;
+        font-family: "roboto light";
+        font-size: 20px;
+    }
+    div.review>div>div>h3{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        position: absolute;
+        bottom:10%;
+        text-transform: capitalize;
+        color: black;
+        font-family: "roboto light";
+        font-size: 14px;
+    }
+    div.review>div>div>div.bottom{
+        width: 100%;
+        height: 10%;
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        justify-content:center ;
+        align-items: center;
+    }
+    div.review>div>div>div.bottom>div{
+        width: 30px;
+        height: 30px;
+        background-color: #3399cc;
+        border-radius: 50%;
+        margin: 0 4px;
+        border: 2px solid black;
+    }
+    div.review>div>div>div.bottom>div:nth-of-type(5){
+        background-color: white;
+    }
 }

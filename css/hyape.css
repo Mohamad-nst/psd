@@ -1,136 +1,425 @@
-div.hyape{
-    width: 100%;
-    height: auto;
-    background:linear-gradient(to bottom,rgba(51,51,51,0.95),rgba(51,51,51,0.95)), url("../images/world-map.jpg") no-repeat center center fixed;
-    background-size: cover;
-    background-blend-mode: multiply;
-    display: flex;
+@media only screen and (min-width:1200px ){
+    div.hyape{
+        width: 100%;
+        height: auto;
+        background:linear-gradient(to bottom,rgba(51,51,51,0.95),rgba(51,51,51,0.95)), url("../images/world-map.jpg") no-repeat center center fixed;
+        background-size: cover;
+        background-blend-mode: multiply;
+        display: flex;
+    }
+    div.hyape>div.left{
+        width: 50%;
+        height: auto;
+        padding-top: 90px;
+        padding-bottom: 90px;
+        position: relative;
+        padding-right: 100px;
+    }
+    div.hyape>div.left>h1{
+        text-align: left;
+        text-transform: uppercase;
+        font-size: 50px;
+        font-weight: bolder;
+        color: black;
+        margin-bottom: 50px;
+        font-family: "roboto regular";
+        padding-left: 25%;
+    }
+    div.hyape>div.left>h1::first-letter{
+        color: #0099ff;
+        font-family: "roboto regular";
+        font-size: 50px;
+    }
+    div.hyape>div.left>p:nth-of-type(1){
+        text-align: left;
+        color: white;
+        font-family: "roboto regular";
+        font-size: 20px;
+        padding-left: 25%;
+    }
+    div.hyape>div.left>p:nth-of-type(2){
+        margin-top: 25px;
+        text-align: left;
+        font-size: 16px;
+        color: white;
+        margin-bottom: 80px;
+        font-family: "roboto regular";
+        padding-left: 25%;
+
+    }
+    div.hyape>div.left>div{
+        width: 100%;
+        height: 40px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 25%;
+
+    }
+    div.hyape>div.left>div>div{
+        width: auto;
+        height: auto;
+        margin: 0 10px;
+    }
+    div.hyape>div.left>div>div>i{
+        font-size: 25px;
+        color: white;
+        transition: all 300ms linear;
+        cursor: pointer;
+    }
+    div.hyape>div.left>div>div>i:hover{
+        color: #0099ff;
+    }
+    div.hyape>div.right{
+        width: 50%;
+        height: auto;
+        padding-right: 150px;
+        position: relative;
+        padding-left: 100px;
+    }
+    div.hyape>div.right>input#fullname{
+        display: inline-block;
+        position: absolute;
+        top: 100px;
+        width: 30%;
+        right: 59%;
+        height: 47px;
+        padding-left: 10px;
+        color: black;
+        font-family: "myriad pro regular";
+        text-transform: capitalize;
+        font-size: 14px;
+        cursor: pointer;
+        border: none;
+    }
+    div.hyape>div.right>input#fullname:valid{
+        border: 2px solid #0099ff ;
+    }
+    div.hyape>div.right>input#emaill{
+        display: inline-block;
+        position: absolute;
+        top: 100px;
+        width: 30%;
+        right: 22%;
+        height: 47px;
+        color: black;
+        font-family: "myriad pro regular";
+        text-transform: capitalize;
+        font-size: 14px;
+        cursor: pointer;
+        padding-left: 10px;
+    }
+    div.hyape>div.right>input#emaill:valid{
+        border: 2px solid #0099ff;
+    }
+    div.hyape>div.right>textarea{
+        display: inline-block;
+        position: absolute;
+        right: 22%;
+        width: 67%;
+        height: 170px;
+        top: 175px;
+        padding-left: 10px;
+        color: black;
+        font-family: "myriad pro regular";
+        text-transform: capitalize;
+        font-size: 14px;
+        padding-top: 10px;
+        cursor: pointer;
+    }
+    div.hyape>div.right>input#send{
+        display: inline-block;
+        width:20% ;
+        height:45px ;
+        background-color: #0099ff;
+        color: white;
+        text-transform: capitalize;
+        position: absolute;
+        right: 22%;
+        top: 380px;
+        border:none ;
+        cursor: pointer;
+    }
 }
-div.hyape>div.left{
-    width: 50%;
-    height: auto;
-    padding-top: 90px;
-    padding-bottom: 90px;
-    padding-left: 200px;
-    position: relative;
-    padding-right: 100px;
+@media only screen and (min-width: 990px) and (max-width: 1200px){
+    div.hyape{
+        width: 100%;
+        height: auto;
+        background:linear-gradient(to bottom,rgba(51,51,51,0.95),rgba(51,51,51,0.95)), url("../images/world-map.jpg") no-repeat center center fixed;
+        background-size: cover;
+        background-blend-mode: multiply;
+        display: flex;
+    }
+    div.hyape>div.left{
+        width: 50%;
+        height: auto;
+        padding-top: 90px;
+        padding-bottom: 90px;
+        position: relative;
+        padding-right: 100px;
+    }
+    div.hyape>div.left>h1{
+        text-align: left;
+        text-transform: uppercase;
+        font-size: 50px;
+        font-weight: bolder;
+        color: black;
+        margin-bottom: 50px;
+        font-family: "roboto regular";
+        padding-left: 25%;
+    }
+    div.hyape>div.left>h1::first-letter{
+        color: #0099ff;
+        font-family: "roboto regular";
+        font-size: 50px;
+    }
+    div.hyape>div.left>p:nth-of-type(1){
+        text-align: left;
+        color: white;
+        font-family: "roboto regular";
+        font-size: 20px;
+        padding-left: 25%;
+    }
+    div.hyape>div.left>p:nth-of-type(2){
+        margin-top: 25px;
+        text-align: left;
+        font-size: 16px;
+        color: white;
+        margin-bottom: 60px;
+        font-family: "roboto regular";
+        padding-left: 25%;
+    }
+    div.hyape>div.left>div{
+        width: 100%;
+        height: 40px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 25%;
+    }
+    div.hyape>div.left>div>div{
+        width: auto;
+        height: auto;
+        margin: 0 10px;
+    }
+    div.hyape>div.left>div>div>i{
+        font-size: 25px;
+        color: white;
+        transition: all 300ms linear;
+        cursor: pointer;
+    }
+    div.hyape>div.left>div>div>i:hover{
+        color: #0099ff;
+    }
+    div.hyape>div.right{
+        width: 50%;
+        height: auto;
+        padding-right: 150px;
+        position: relative;
+        padding-left: 100px;
+    }
+    div.hyape>div.right>input#fullname{
+        display: inline-block;
+        position: absolute;
+        top: 100px;
+        width: 35%;
+        right: 64%;
+        height: 47px;
+        padding-left: 10px;
+        color: black;
+        font-family: "myriad pro regular";
+        text-transform: capitalize;
+        font-size: 14px;
+        cursor: pointer;
+        border: none;
+    }
+    div.hyape>div.right>input#fullname:valid{
+        border: 2px solid #0099ff ;
+    }
+    div.hyape>div.right>input#emaill{
+        display: inline-block;
+        position: absolute;
+        top: 100px;
+        width: 35%;
+        right: 22%;
+        height: 47px;
+        padding-left: 10px;
+        color: black;
+        font-family: "myriad pro regular";
+        text-transform: capitalize;
+        font-size: 14px;
+        cursor: pointer;
+    }
+    div.hyape>div.right>input#emaill:valid{
+        border: 2px solid #0099ff;
+    }
+    div.hyape>div.right>textarea{
+        display: inline-block;
+        position: absolute;
+        height: 170px;
+        top: 175px;
+        padding-left: 10px;
+        color: black;
+        font-family: "myriad pro regular";
+        text-transform: capitalize;
+        font-size: 14px;
+        padding-top: 10px;
+        cursor: pointer;
+        right: 22%;
+        width: 77%;
+    }
+    div.hyape>div.right>input#send{
+        display: inline-block;
+        width:20% ;
+        height:45px ;
+        background-color: #0099ff;
+        color: white;
+        text-transform: capitalize;
+        position: absolute;
+        right: 22%;
+        top: 380px;
+        border:none ;
+        cursor: pointer;
+    }
 }
-div.hyape>div.left>h1{
-    text-align: left;
-    text-transform: uppercase;
-    font-size: 50px;
-    font-weight: bolder;
-    color: black;
-    margin-bottom: 50px;
-    font-family: "roboto regular";
-}
-div.hyape>div.left>h1::first-letter{
-    color: #0099ff;
-    font-family: "roboto regular";
-    font-size: 50px;
-}
-div.hyape>div.left>p:nth-of-type(1){
-    text-align: left;
-    color: white;
-    font-family: "roboto regular";
-    font-size: 20px;
-}
-div.hyape>div.left>p:nth-of-type(2){
-    margin-top: 25px;
-    text-align: left;
-    font-size: 16px;
-    color: white;
-    margin-bottom: 85px;
-    font-family: "roboto regular";
-}
-div.hyape>div.left>div{
-    width: 100%;
-    height: 40px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-div.hyape>div.left>div>div{
-    width: auto;
-    height: auto;
-    margin: 0 10px;
-}
-div.hyape>div.left>div>div>i{
-    font-size: 25px;
-    color: white;
-    transition: all 300ms linear;
-    cursor: pointer;
-}
-div.hyape>div.left>div>div>i:hover{
-    color: #0099ff;
-}
-div.hyape>div.right{
-    width: 50%;
-    height: auto;
-    padding-right: 150px;
-    position: relative;
-    padding-left: 100px;
-}
-div.hyape>div.right>input#fullname{
-    display: inline-block;
-    position: absolute;
-    top: 100px;
-    width: 185px;
-    left: 125px;
-    height: 47px;
-    padding-left: 10px;
-    color: black;
-    font-family: "myriad pro regular";
-    text-transform: capitalize;
-    font-size: 14px;
-    cursor: pointer;
-    border: none;
-}
-div.hyape>div.right>input#fullname:valid{
-    border: 2px solid #0099ff ;
-}
-div.hyape>div.right>input#emaill{
-    display: inline-block;
-    position: absolute;
-    top: 100px;
-    width: 185px;
-    right: 150px;
-    height: 47px;
-    padding-left: 10px;
-    color: black;
-    font-family: "myriad pro regular";
-    text-transform: capitalize;
-    font-size: 14px;
-    cursor: pointer;
-}
-div.hyape>div.right>input#emaill:valid{
-    border: 2px solid #0099ff;
-}
-div.hyape>div.right>textarea{
-    display: inline-block;
-    position: absolute;
-    right: 150px;
-    width: 400px;
-    height: 150px;
-    top: 175px;
-    padding-left: 10px;
-    color: black;
-    font-family: "myriad pro regular";
-    text-transform: capitalize;
-    font-size: 14px;
-    padding-top: 10px;
-    cursor: pointer;
-}
-div.hyape>div.right>input#send{
-    display: inline-block;
-    width:130px ;
-    height:45px ;
-    background-color: #0099ff;
-    color: white;
-    text-transform: capitalize;
-    position: absolute;
-    right: 150px;
-    bottom: 100px;
-    border:none ;
-    cursor: pointer;
+@media only screen and (min-width: 768px) and (max-width: 990px){
+    div.hyape{
+        width: 100%;
+        height: auto;
+        background:linear-gradient(to bottom,rgba(51,51,51,0.95),rgba(51,51,51,0.95)), url("../images/world-map.jpg") no-repeat center center fixed;
+        background-size: cover;
+        background-blend-mode: multiply;
+        display: flex;
+    }
+    div.hyape>div.left{
+        width: 50%;
+        height: auto;
+        padding-top: 90px;
+        padding-bottom: 90px;
+        position: relative;
+        padding-right: 100px;
+    }
+    div.hyape>div.left>h1{
+        text-align: left;
+        text-transform: uppercase;
+        font-size: 50px;
+        font-weight: bolder;
+        color: black;
+        margin-bottom: 50px;
+        font-family: "roboto regular";
+        padding-left: 25%;
+    }
+    div.hyape>div.left>h1::first-letter{
+        color: #0099ff;
+        font-family: "roboto regular";
+        font-size: 50px;
+    }
+    div.hyape>div.left>p:nth-of-type(1){
+        text-align: left;
+        color: white;
+        font-family: "roboto regular";
+        font-size: 20px;
+        padding-left: 25%;
+    }
+    div.hyape>div.left>p:nth-of-type(2){
+        margin-top: 25px;
+        text-align: left;
+        font-size: 16px;
+        color: white;
+        margin-bottom: 60px;
+        font-family: "roboto regular";
+        padding-left: 25%;
+    }
+    div.hyape>div.left>div{
+        width: 100%;
+        height: 40px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 25%;
+    }
+    div.hyape>div.left>div>div{
+        width: auto;
+        height: auto;
+        margin: 0 10px;
+    }
+    div.hyape>div.left>div>div>i{
+        font-size: 25px;
+        color: white;
+        transition: all 300ms linear;
+        cursor: pointer;
+    }
+    div.hyape>div.left>div>div>i:hover{
+        color: #0099ff;
+    }
+    div.hyape>div.right{
+        width: 50%;
+        height: auto;
+        padding-right: 150px;
+        position: relative;
+        padding-left: 100px;
+    }
+    div.hyape>div.right>input#fullname{
+        display: inline-block;
+        position: absolute;
+        top: 100px;
+        width: 35%;
+        right: 64%;
+        height: 47px;
+        padding-left: 10px;
+        color: black;
+        font-family: "myriad pro regular";
+        text-transform: capitalize;
+        font-size: 14px;
+        cursor: pointer;
+        border: none;
+    }
+    div.hyape>div.right>input#fullname:valid{
+        border: 2px solid #0099ff ;
+    }
+    div.hyape>div.right>input#emaill{
+        display: inline-block;
+        position: absolute;
+        top: 100px;
+        width: 35%;
+        right: 22%;
+        height: 47px;
+        padding-left: 10px;
+        color: black;
+        font-family: "myriad pro regular";
+        text-transform: capitalize;
+        font-size: 14px;
+        cursor: pointer;
+    }
+    div.hyape>div.right>input#emaill:valid{
+        border: 2px solid #0099ff;
+    }
+    div.hyape>div.right>textarea{
+        display: inline-block;
+        position: absolute;
+        height: 170px;
+        top: 175px;
+        padding-left: 10px;
+        color: black;
+        font-family: "myriad pro regular";
+        text-transform: capitalize;
+        font-size: 14px;
+        padding-top: 10px;
+        cursor: pointer;
+        right: 22%;
+        width: 77%;
+    }
+    div.hyape>div.right>input#send{
+        display: inline-block;
+        width:20% ;
+        height:45px ;
+        background-color: #0099ff;
+        color: white;
+        text-transform: capitalize;
+        position: absolute;
+        right: 22%;
+        top: 380px;
+        border:none ;
+        cursor: pointer;
+    }
 }

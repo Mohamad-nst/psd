@@ -1,28 +1,36 @@
 div.order{
     width:100% ;
     height: auto;
-    background: url("../images/blue wall.jpg") no-repeat center center fixed;
+    background:linear-gradient(to bottom,rgba(51,153,204,0.75),rgba(51,153,204,0.75)), url("../images/order bg.jpg") no-repeat center center fixed ;
     background-size: cover;
+    background-blend-mode: multiply;
     box-sizing: content-box;
-    padding-top: 50px;
+    padding-top: 70px;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 85px;
 }
 div.order>h1{
     width: 100%;
     height: auto;
     text-transform: uppercase;
     text-align: center;
-    font-family: "myriad pro regular";
+    font-family: "roboto regular";
+    font-size: 38px;
     color: #666666;
-    font-size: 30px;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
 }
-div.order>h1>span{
+div.order>h1>span:nth-of-type(1){
+    padding-left: 10px;
+}
+div.order>h1>span:nth-of-type(2){
     color: white;
+    padding-left: 10px;
+
+}
+div.order>h1>span:nth-of-type(3){
+   padding-left: 10px;
 }
 div.order>input#email{
     display: inline-block;
@@ -46,7 +54,7 @@ div.order>input#text{
     color: #666666;
     text-transform: capitalize;
     padding-left: 10px;
-    margin-bottom: 60px;
+    margin-bottom: 65px;
 }
 div.order>a{
     display: inline-block;
@@ -60,4 +68,33 @@ div.order>a{
     font-family: "myriad pro regular";
     text-transform: uppercase;
     font-size: 30px;
+}
+div.order>div.improve{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    box-sizing: content-box;
+    padding-top: 70px;
+    background-color: rgba(0,0,0,0.92);
+    padding-bottom: 70px;
+    margin-top: 100px;
+}
+div.order>div.improve>h1{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-family: "myriad pro regular";
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+div.order>div.improve>h2{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-family: "myriad pro regular";
+    font-size: 25px;
 }

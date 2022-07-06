@@ -1,35 +1,37 @@
 div.collection{
     width:100% ;
     height:auto;
-    background: url("../images/wall2.jpg") no-repeat center center fixed;
+    background:linear-gradient(to bottom,rgba(51,51,51,0.75),rgba(51,51,51,0.75)), url("../images/tshirt-ftr.png") no-repeat center center;
     background-size: cover;
-    padding-top: 50px;
-    padding-bottom: 100px;
+    background-blend-mode: multiply;
+    padding-top: 70px;
+    padding-bottom: 120px;
     box-sizing: content-box;
 }
 div.collection>h1{
     width: 100%;
     height: auto;
     text-align: center;
-    font-family: "myriad pro regular";
-    font-weight: bolder;
+    font-family: "roboto regular";
+    font-size: 40px;
     text-transform: uppercase;
 }
 div.collection>h1>span{
     color: #0099ff;
     padding-right: 2px;
+    font-family: "roboto regular";
+    font-size: 40px;
 }
 div.collection>div{
     width: 100%;
     height: auto;
-    margin-top: 80px;
+    margin-top: 110px;
     display: flex;
     justify-content: center;
 }
 div.collection>div>div{
     width: 19%;
-    height: 300px;
-    background-color: red;
+    height: 320px;
     margin: 0 10px;
     position: relative;
     overflow: hidden;
@@ -44,15 +46,17 @@ div.collection>div>div>div.price{
     width: 100%;
     height: 13%;
     position: absolute;
-    background-color: #0099ff;
+    background-color: #666666;
     bottom: 0;
+    transition: all 300ms linear;
+    cursor: pointer;
 }
 div.collection>div>div>div.price>h1{
     width: 75%;
     height: 13%;
     text-align: left;
     color: white;
-    font-family: "myriad pro regular";
+    font-family: "roboto regular";
     font-size: 20px;
     padding-left: 10px;
     line-height: 40px;
@@ -61,8 +65,22 @@ div.collection>div>div>div.price>h1{
 }
 div.collection>div>div>div.price>div.dolar{
     width: 25%;
-    height: inherit;
-    background-color: #99cccc;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #999999;
+    z-index: 10;
+    transition: all 300ms linear;
+}
+div.collection>div>div>div.price>div.dolar>h1{
+    font-family: "roboto regular";
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    line-height: 40px;
+    width: auto;
+    height: 100%;
 }
 div.collection>div>div>div.cover{
     width: 100%;
@@ -117,4 +135,10 @@ div.collection>div>div>div.cover>div.bottom>h1>i{
 }
 div.collection>div>div:hover>div.cover{
     left: 0;
+}
+div.collection>div>div:hover>div.price{
+    background-color: #0099ff;
+}
+div.collection>div>div:hover>div.price>div.dolar{
+    background-color: #99cccc;
 }

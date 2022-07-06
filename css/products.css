@@ -2,8 +2,9 @@ div.products{
     width: 100%;
     height: auto;
     padding-top: 100px;
-background: url("../images/black wall.jpg") no-repeat center center fixed;
+background:linear-gradient(to bottom,rgba(51,51,51,0.5),rgba(51,51,51,05)), url("../images/back ground.jpg") no-repeat center center fixed;
     background-size: cover;
+    background-blend-mode: multiply;
     padding-bottom: 150px;
 }
 div.products>h1{
@@ -12,8 +13,8 @@ div.products>h1{
     text-align: center;
     color: white;
     text-transform: uppercase;
-    font-family: "myriad pro regular";
-    font-size: 22pt;
+    font-family: "roboto regular";
+    font-size: 36px;
     margin-bottom: 120px;
     box-sizing: content-box;
 }
@@ -33,6 +34,7 @@ div.products>div>div{
     margin: 0 10px;
     position: relative;
     overflow: hidden;
+    cursor: pointer;
 }
 div.products>div>div>img{
     width: 100%;
@@ -97,11 +99,13 @@ div.products>div>div:hover>div.cover{
 div.products>div>div>div.price{
     width: 75%;
     height: 13%;
-    background-color: #0099ff;
+    background-color: #666666;
     position: absolute;
     left: 0;
     bottom: 0;
     padding-left: 15px;
+    transition: all 300ms linear;
+
 }
 div.products>div>div>div.price>h1{
     font-family: "myriad pro regular";
@@ -114,10 +118,11 @@ div.products>div>div>div.price>h1{
 div.products>div>div>div.dolar{
     width: 25%;
     height: 13%;
-    background-color: #99cccc;
+    background-color: #999999;
     position: absolute;
     right: 0;
     bottom: 0;
+    transition: all 300ms linear;
 }
 div.products>div>div>div.dolar>h1{
     font-family: "myriad pro regular";
@@ -126,4 +131,10 @@ div.products>div>div>div.dolar>h1{
     text-align: center;
     line-height: 52px;
     font-size: 22px;
+}
+div.products>div>div:hover>div.price{
+    background-color: #0099ff;
+}
+div.products>div>div:hover>div.dolar{
+    background-color: #99cccc;
 }

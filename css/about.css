@@ -3,32 +3,36 @@ div.about{
     height: auto;
     background-color: white;
     position: static;
-    padding-top: 75px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    box-sizing: content-box;
 }
 div.about>h1{
     width: 100%;
     height: auto;
     text-align: center;
-    font-family: "myriad pro regular";
     text-transform: uppercase;
     font-size: 30px;
+    font-family:"roboto light" ;
 }
 div.about>h1>span{
     color: #0099ff;
+    font-size: 30px;
+    font-family:"roboto light" ;
 }
 div.about>div{
     width: 100%;
     height: 325px;
     display: flex;
     justify-content: center;
-    margin-top: 35px;
+    margin-top: 55px;
 }
 div.about>div>div{
     width: 17%;
     height: auto;
     position:relative ;
     margin: 0 15px;
+    cursor: pointer;
 }
 div.about>div>div>i{
     position: absolute;
@@ -37,9 +41,7 @@ div.about>div>div>i{
     top: 20px;
     left: calc(50% - 50px/2);
     margin-bottom: 50px;
-}
-div.about>div>div:nth-of-type(2)>i{
-    color: #0099ff;
+    transition: all 300ms linear;
 }
 div.about>div>div>h1{
     width: 100%;
@@ -50,9 +52,7 @@ div.about>div>div>h1{
     font-size: 20px;
     font-family: "myriad pro regular";
     text-transform: uppercase;
-}
-div.about>div>div:nth-of-type(2)>h1{
-    color: #0099ff;
+    transition: all 300ms linear;
 }
 div.about>div>div>p{
     width: 100%;
@@ -62,9 +62,18 @@ div.about>div>div>p{
     text-align:justify;
     color: black;
     font-family: "myriad pro regular";
-    font-size: 16px;
+    font-size: 14px;
 }
 div.about>div>div>p>span{
     display: block;
     text-align: center;
+    font-family: "myriad pro regular";
+    font-size: 14px;
 }
+div.about>div>div:hover>i{
+    color: #0099ff;
+}
+div.about>div>div:hover>h1{
+    color: #0099ff;
+}
+

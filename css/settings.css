@@ -2,10 +2,36 @@
     font-family: "myriad pro regular";
     src: url("../font-family/myriad pro/MYRIADPRO-REGULAR.OTF");
 }
+@font-face {
+    font-family: "roboto light";
+    src: url("../font-family/Roboto/Roboto-Light.ttf");
+}
+@font-face {
+    font-family: "roboto regular";
+    src: url("../font-family/Roboto/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: "roboto black";
+    src: url("../font-family/Roboto/Roboto-Black.ttf");
+}
+@font-face {
+    font-family: "opensanse";
+    src: url("../font-family/open sanse/OpenSans-Regular.ttf");
+}
+@font-face {
+    font-family: "opensanse light";
+    src: url("../font-family/open sanse/OpenSans-Light.ttf");
+}
+@font-face {
+    font-family: "opensanse semibold";
+    src: url("../font-family/open sanse/OpenSans-SemiBold.ttf");
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    font-family: "roboto regular";
 }
+

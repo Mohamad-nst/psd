@@ -6,16 +6,13 @@ body {
 
 body {
     background: #eee;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 14px;
     color: #000;
     margin: 0;
     padding: 0;
 }
-
 .swiper {
     width: 100%;
-    height: 100vh;
+    height: 770px;
     position: relative;
 }
 
@@ -38,11 +35,12 @@ body {
     -webkit-align-items: center;
     align-items: center;
 }
-.swiper-slide img {
+.swiper-slide> img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
+    background-color: #666666;
 }
 div.swiper-button-next,div.swiper-button-prev{
     color: white;
@@ -51,39 +49,48 @@ div.swiper-button-next,div.swiper-button-prev{
 }
 div.swiper-pagination{
     position: absolute;
-    color: white;
-    bottom: -125px;
-    font-size: 25px;
-    font-family: "BankGothic Lt BT";
-    font-weight: bold;
+    color: #0099ff;
+    bottom:-225px;
+    font-size: 24px;
+    font-family: "roboto";
 }
 div.swiper-slide>h1{
     position: absolute;
     width: 100%;
     height: auto;
     text-align: center;
-    top:125px ;
+    top:185px ;
     text-align: center;
     text-transform: uppercase;
-    font-family: "myriad pro regular";
     color: white;
-    font-size: 45px;
+    font-size: 56px;
+    font-family: "Roboto Thin";
 }
 div.swiper-slide>h1:nth-of-type(2){
-    top: 225px;
+    top: 320px;
+    font-size: 56px;
+    font-family: "roboto light";
 }
-div.swiper-slide>h1>span{
+div.swiper-slide>h1:nth-of-type(1)>span{
     color: #0099ff;
+    font-size: 56px;
+    font-family: "Roboto Thin";
+}
+div.swiper-slide>h1:nth-of-type(2)>span{
+    color: #0099ff;
+    font-size: 56px;
+    font-family: "roboto light";
 }
 div.swiper-slide>p:nth-of-type(1){
     position: absolute;
     width: 60%;
     height: auto;
     text-align: justify;
-    top: 300px;
-    line-height: 30px;
+    top: 450px;
+    line-height: 40px;
     color: white;
-    font-family: "myriad pro regular";
+    font-family: "roboto regular";
+    font-size: 18px;
 
 }
 div.swiper-slide>p:nth-of-type(2){
@@ -91,19 +98,21 @@ div.swiper-slide>p:nth-of-type(2){
     width: 50%;
     height: auto;
     text-align: justify;
-    top: 330px;
-    line-height: 30px;
+    top: 490px;
+    line-height: 40px;
     color: white;
-    font-family: "myriad pro regular";
+    font-family: "roboto regular";
+    font-size: 18px;
 }
 div.swiper-slide>p:nth-of-type(3){
     position: absolute;
     width: 40%;
     height: auto;
     text-align: justify;
-    top: 360px;
-    line-height: 30px;
+    top: 530px;
+    line-height: 40px;
     color: white;
-    font-family: "myriad pro regular";
+    font-family: "roboto regular";
+    font-size: 18px;
 }
 

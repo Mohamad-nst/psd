@@ -10,14 +10,15 @@ div.review>h1{
     width: 100%;
     height: auto;
     color: #666666;
-    font-family: "myriad pro regular";
-    font-size: 35px;
+    font-family: "roboto regular";
+    font-size: 40px;
     text-align: center;
     text-transform: uppercase;
     margin-bottom:75px ;
 }
 div.review>h1>span{
     color: #0099ff;
+    padding-left: 25px;
 }
 div.review>div{
     width: 100%;
@@ -48,7 +49,7 @@ div.review>div>div>p{
     text-align: justify;
     top: 50%;
     color: black;
-    font-size: 16px;
+    font-size: 14px;
     font-family: "myriad pro regular";
 }
 div.review>div>div>h2{
@@ -59,6 +60,8 @@ div.review>div>div>h2{
     bottom: 20%;
     text-transform: uppercase;
     color: #0099ff;
+    font-family: "roboto light";
+    font-size: 20px;
 }
 div.review>div>div>h3{
     width: 100%;
@@ -68,6 +71,8 @@ div.review>div>div>h3{
     bottom: 15%;
     text-transform: capitalize;
     color: black;
+    font-family: "roboto light";
+    font-size: 14px;
 }
 div.review>div>div>div.bottom{
     width: 100%;

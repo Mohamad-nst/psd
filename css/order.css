@@ -59,7 +59,7 @@
     }
     div.order>a{
         display: inline-block;
-        width: 300px;
+        width: 20%;
         height: 90px;
         background-color: #666666;
         border-radius: 10px;
@@ -86,8 +86,8 @@
         text-align: center;
         text-transform: uppercase;
         color: white;
-        font-family: "myriad pro regular";
-        font-size: 50px;
+        font-family: "roboto regular";
+        font-size: 40px;
         margin-bottom: 40px;
     }
     div.order>div.improve>h2{
@@ -96,8 +96,8 @@
         text-align: center;
         text-transform: uppercase;
         color: white;
-        font-family: "myriad pro regular";
-        font-size: 25px;
+        font-family: "roboto regular";
+        font-size: 30px;
     }
 }
 @media only screen and (min-width: 990px) and (max-width: 1200px){
@@ -120,7 +120,7 @@
         text-transform: uppercase;
         text-align: center;
         font-family: "roboto regular";
-        font-size: 38px;
+        font-size: 36px;
         color: #666666;
         margin-bottom: 120px;
     }
@@ -138,7 +138,7 @@
     div.order>input#email{
         display: inline-block;
         background-color: white;
-        width: 45%;
+        width: 47.5%;
         height: 60px;
         margin-bottom: 35px;
         border: none;
@@ -150,7 +150,7 @@
     div.order>input#text{
         display: inline-block;
         background-color: white;
-        width: 45%;
+        width: 47.5%;
         height: 60px;
         border: none;
         border-radius: 5px;
@@ -161,7 +161,7 @@
     }
     div.order>a{
         display: inline-block;
-        width: 300px;
+        width: 22.5%;
         height: 90px;
         background-color: #666666;
         border-radius: 10px;
@@ -188,8 +188,8 @@
         text-align: center;
         text-transform: uppercase;
         color: white;
-        font-family: "myriad pro regular";
-        font-size: 50px;
+        font-family: "roboto regular";
+        font-size: 40px;
         margin-bottom: 40px;
     }
     div.order>div.improve>h2{
@@ -198,12 +198,12 @@
         text-align: center;
         text-transform: uppercase;
         color: white;
-        font-family: "myriad pro regular";
-        font-size: 25px;
+        font-family: "roboto regular";
+        font-size: 30px;
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1200px){
+@media only screen and (min-width: 768px) and (max-width: 990px){
     div.order{
         width:100% ;
         height: auto;
@@ -223,7 +223,7 @@
         text-transform: uppercase;
         text-align: center;
         font-family: "roboto regular";
-        font-size: 38px;
+        font-size: 34px;
         color: #666666;
         margin-bottom: 120px;
     }
@@ -241,7 +241,7 @@
     div.order>input#email{
         display: inline-block;
         background-color: white;
-        width: 45%;
+        width: 50%;
         height: 60px;
         margin-bottom: 35px;
         border: none;
@@ -253,7 +253,7 @@
     div.order>input#text{
         display: inline-block;
         background-color: white;
-        width: 45%;
+        width: 50%;
         height: 60px;
         border: none;
         border-radius: 5px;
@@ -264,7 +264,7 @@
     }
     div.order>a{
         display: inline-block;
-        width: 300px;
+        width: 25%;
         height: 90px;
         background-color: #666666;
         border-radius: 10px;
@@ -292,7 +292,7 @@
         text-transform: uppercase;
         color: white;
         font-family: "myriad pro regular";
-        font-size: 50px;
+        font-size: 40px;
         margin-bottom: 40px;
     }
     div.order>div.improve>h2{
@@ -302,6 +302,210 @@
         text-transform: uppercase;
         color: white;
         font-family: "myriad pro regular";
-        font-size: 25px;
+        font-size: 30px;
+    }
+}
+@media only screen and (min-width: 540px) and (max-width: 768px){
+    div.order{
+        width:100% ;
+        height: auto;
+        background:linear-gradient(to bottom,rgba(51,153,204,0.75),rgba(51,153,204,0.75)), url("../images/order bg.jpg") no-repeat center center fixed ;
+        background-size: cover;
+        background-blend-mode: multiply;
+        box-sizing: content-box;
+        padding-top: 70px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    div.order>h1{
+        width: 100%;
+        height: auto;
+        text-transform: uppercase;
+        text-align: center;
+        font-family: "roboto regular";
+        font-size: 32px;
+        color: #666666;
+        margin-bottom: 120px;
+    }
+    div.order>h1>span:nth-of-type(1){
+        padding-left: 10px;
+    }
+    div.order>h1>span:nth-of-type(2){
+        color: white;
+        padding-left: 10px;
+
+    }
+    div.order>h1>span:nth-of-type(3){
+        padding-left: 10px;
+    }
+    div.order>input#email{
+        display: inline-block;
+        background-color: white;
+        width: 60%;
+        height: 60px;
+        margin-bottom: 35px;
+        border: none;
+        border-radius: 5px;
+        color: #666666;
+        text-transform: capitalize;
+        padding-left: 10px;
+    }
+    div.order>input#text{
+        display: inline-block;
+        background-color: white;
+        width: 60%;
+        height: 60px;
+        border: none;
+        border-radius: 5px;
+        color: #666666;
+        text-transform: capitalize;
+        padding-left: 10px;
+        margin-bottom: 65px;
+    }
+    div.order>a{
+        display: inline-block;
+        width: 40%;
+        height: 90px;
+        background-color: #666666;
+        border-radius: 10px;
+        color: white;
+        line-height: 90px;
+        text-align: center;
+        font-family: "myriad pro regular";
+        text-transform: uppercase;
+        font-size: 30px;
+    }
+    div.order>div.improve{
+        width: 100%;
+        height: auto;
+        background-size: cover;
+        box-sizing: content-box;
+        padding-top: 70px;
+        background-color: rgba(0,0,0,0.92);
+        padding-bottom: 70px;
+        margin-top: 100px;
+    }
+    div.order>div.improve>h1{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+        font-family: "myriad pro regular";
+        font-size: 38px;
+        margin-bottom: 40px;
+    }
+    div.order>div.improve>h2{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+        font-family: "myriad pro regular";
+        font-size: 28px;
+    }
+}
+@media only screen and (max-width: 540px){
+    div.order{
+        width:100% ;
+        height: auto;
+        background:linear-gradient(to bottom,rgba(51,153,204,0.75),rgba(51,153,204,0.75)), url("../images/order bg.jpg") no-repeat center center fixed ;
+        background-size: cover;
+        background-blend-mode: multiply;
+        box-sizing: content-box;
+        padding-top: 70px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    div.order>h1{
+        width: 100%;
+        height: auto;
+        text-transform: uppercase;
+        text-align: center;
+        font-family: "roboto regular";
+        font-size: 30px;
+        color: #666666;
+        margin-bottom: 120px;
+    }
+    div.order>h1>span:nth-of-type(1){
+        padding-left: 10px;
+    }
+    div.order>h1>span:nth-of-type(2){
+        color: white;
+        padding-left: 10px;
+
+    }
+    div.order>h1>span:nth-of-type(3){
+        padding-left: 10px;
+    }
+    div.order>input#email{
+        display: inline-block;
+        background-color: white;
+        width: 75%;
+        height: 60px;
+        margin-bottom: 35px;
+        border: none;
+        border-radius: 5px;
+        color: #666666;
+        text-transform: capitalize;
+        padding-left: 10px;
+    }
+    div.order>input#text{
+        display: inline-block;
+        background-color: white;
+        width: 75%;
+        height: 60px;
+        border: none;
+        border-radius: 5px;
+        color: #666666;
+        text-transform: capitalize;
+        padding-left: 10px;
+        margin-bottom: 65px;
+    }
+    div.order>a{
+        display: inline-block;
+        width: 40%;
+        height: 90px;
+        background-color: #666666;
+        border-radius: 10px;
+        color: white;
+        line-height: 90px;
+        text-align: center;
+        font-family: "myriad pro regular";
+        text-transform: uppercase;
+        font-size: 30px;
+    }
+    div.order>div.improve{
+        width: 100%;
+        height: auto;
+        background-size: cover;
+        box-sizing: content-box;
+        padding-top: 70px;
+        background-color: rgba(0,0,0,0.92);
+        padding-bottom: 70px;
+        margin-top: 100px;
+    }
+    div.order>div.improve>h1{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+        font-family: "roboto regular";
+        font-size: 36px;
+        margin-bottom: 40px;
+    }
+    div.order>div.improve>h2{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+        font-family: "myriad pro regular";
+        font-size: 26px;
     }
 }

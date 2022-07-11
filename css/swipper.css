@@ -419,7 +419,7 @@
     }
     div.swiper-pagination{
         position: absolute;
-        color: black;
+        color: #0099ff;
         bottom: 3%;
         font-size: 24px;
         font-family: "roboto regular";

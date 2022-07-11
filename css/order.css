@@ -28,7 +28,6 @@
     div.order>h1>span:nth-of-type(2){
         color: white;
         padding-left: 10px;
-
     }
     div.order>h1>span:nth-of-type(3){
         padding-left: 10px;
@@ -36,7 +35,7 @@
     div.order>input#email{
         display: inline-block;
         background-color: white;
-        width: 30%;
+        width: 35%;
         height: 60px;
         margin-bottom: 35px;
         border: none;
@@ -45,11 +44,15 @@
         text-transform: capitalize;
         padding-left: 10px;
         box-shadow: 2px 2px 10px black;
+        transition: all 300ms linear;
+    }
+    div.order>input#email:focus{
+        transform: scale(1.25,1);
     }
     div.order>input#text{
         display: inline-block;
         background-color: white;
-        width: 30%;
+        width: 35%;
         height: 60px;
         border: none;
         border-radius: 5px;
@@ -58,6 +61,10 @@
         padding-left: 10px;
         margin-bottom: 65px;
         box-shadow: 2px 2px 10px black;
+        transition: all 300ms linear;
+    }
+    div.order>input#text:focus{
+        transform: scale(1.25,1);
     }
     div.order>a{
         display: inline-block;
@@ -73,6 +80,7 @@
         font-size: 30px;
         box-shadow: 2px 2px 10px black;
     }
+    /*start improve*/
     div.order>div.improve{
         width: 100%;
         height: auto;
@@ -102,6 +110,7 @@
         font-family: "roboto regular";
         font-size: 30px;
     }
+    /*end improve*/
 }
 @media only screen and (min-width: 990px) and (max-width: 1200px){
     div.order{
@@ -141,7 +150,7 @@
     div.order>input#email{
         display: inline-block;
         background-color: white;
-        width: 35%;
+        width: 40%;
         height: 60px;
         margin-bottom: 35px;
         border: none;
@@ -150,11 +159,15 @@
         text-transform: capitalize;
         padding-left: 10px;
         box-shadow: 2px 2px 10px black;
+        transition: all 300ms linear;
+    }
+    div.order>input#email:focus{
+        transform: scale(1.25,1);
     }
     div.order>input#text{
         display: inline-block;
         background-color: white;
-        width: 35%;
+        width: 40%;
         height: 60px;
         border: none;
         border-radius: 5px;
@@ -163,6 +176,10 @@
         padding-left: 10px;
         margin-bottom: 65px;
         box-shadow: 2px 2px 10px black;
+        transition: all 300ms linear;
+    }
+    div.order>input#text:focus{
+        transform: scale(1.25,1);
     }
     div.order>a{
         display: inline-block;
@@ -178,6 +195,7 @@
         font-size: 30px;
         box-shadow: 2px 2px 10px black;
     }
+    /*start improve*/
     div.order>div.improve{
         width: 100%;
         height: auto;
@@ -207,8 +225,8 @@
         font-family: "roboto regular";
         font-size: 28px;
     }
+    /*end improve*/
 }
-
 @media only screen and (min-width: 768px) and (max-width: 990px){
     div.order{
         width:100% ;
@@ -246,7 +264,7 @@
     div.order>input#email{
         display: inline-block;
         background-color: white;
-        width: 40%;
+        width: 45%;
         height: 60px;
         margin-bottom: 35px;
         border: none;
@@ -255,11 +273,15 @@
         text-transform: capitalize;
         padding-left: 10px;
         box-shadow: 2px 2px 10px black;
+        transition: all 300ms linear;
+    }
+    div.order>input#email:focus{
+        transform: scale(1.25,1);
     }
     div.order>input#text{
         display: inline-block;
         background-color: white;
-        width: 40%;
+        width: 45%;
         height: 60px;
         border: none;
         border-radius: 5px;
@@ -268,6 +290,10 @@
         padding-left: 10px;
         margin-bottom: 65px;
         box-shadow: 2px 2px 10px black;
+        transition: all 300ms linear;
+    }
+    div.order>input#text:focus{
+        transform: scale(1.25,1);
     }
     div.order>a{
         display: inline-block;
@@ -283,6 +309,7 @@
         font-size: 28px;
         box-shadow: 2px 2px 10px black;
     }
+    /*start improve*/
     div.order>div.improve{
         width: 100%;
         height: auto;
@@ -312,6 +339,7 @@
         font-family: "myriad pro regular";
         font-size: 24px;
     }
+    /*end improve*/
 }
 @media only screen and (min-width: 540px) and (max-width: 768px){
     div.order{
@@ -351,7 +379,7 @@
     div.order>input#email{
         display: inline-block;
         background-color: white;
-        width: 60%;
+        width: 55%;
         height: 60px;
         margin-bottom: 35px;
         border: none;
@@ -360,11 +388,15 @@
         text-transform: capitalize;
         padding-left: 10px;
         box-shadow: 2px 2px 10px black;
+        transition: all 300ms linear;
+    }
+    div.order>input#email:focus{
+        transform: scale(1.25,1);
     }
     div.order>input#text{
         display: inline-block;
         background-color: white;
-        width: 60%;
+        width: 55%;
         height: 60px;
         border: none;
         border-radius: 5px;
@@ -373,6 +405,10 @@
         padding-left: 10px;
         margin-bottom: 65px;
         box-shadow: 2px 2px 10px black;
+        transition: all 300ms linear;
+    }
+    div.order>input#text:focus{
+        transform: scale(1.25,1);
     }
     div.order>a{
         display: inline-block;
@@ -388,6 +424,7 @@
         font-size: 26px;
         box-shadow: 2px 2px 10px black;
     }
+    /*start improve*/
     div.order>div.improve{
         width: 100%;
         height: auto;
@@ -417,6 +454,7 @@
         font-family: "myriad pro regular";
         font-size: 22px;
     }
+    /*end improve*/
 }
 @media only screen and (max-width: 540px){
     div.order{
@@ -456,7 +494,7 @@
     div.order>input#email{
         display: inline-block;
         background-color: white;
-        width: 70%;
+        width: 60%;
         height: 60px;
         margin-bottom: 35px;
         border: none;
@@ -465,11 +503,15 @@
         text-transform: capitalize;
         padding-left: 10px;
         box-shadow: 2px 2px 10px black;
+        transition: all 300ms linear;
+    }
+    div.order>input#email:focus{
+        transform: scale(1.25,1);
     }
     div.order>input#text{
         display: inline-block;
         background-color: white;
-        width: 70%;
+        width: 60%;
         height: 60px;
         border: none;
         border-radius: 5px;
@@ -478,6 +520,10 @@
         padding-left: 10px;
         margin-bottom: 65px;
         box-shadow: 2px 2px 10px black;
+        transition: all 300ms linear;
+    }
+    div.order>input#text:focus{
+        transform: scale(1.25,1);
     }
     div.order>a{
         display: inline-block;
@@ -493,6 +539,7 @@
         font-size: 24px;
         box-shadow: 2px 2px 10px black;
     }
+    /*start improve*/
     div.order>div.improve{
         width: 100%;
         height: auto;
@@ -522,4 +569,5 @@
         font-family: "myriad pro regular";
         font-size: 20px;
     }
+    /*end improve*/
 }

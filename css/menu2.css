@@ -235,6 +235,7 @@
    div.menu2{
         display: none;
     }
+    /*start menu hamburger*/
     div.header2{
         width: 100%;
         height: 90px;
@@ -362,11 +363,13 @@
     div.header2>div.menuphone2>div:hover{
         background-color: rgba(0, 0, 0, 0.25);
     }
+    /*end menu hamburger*/
 }
 @media only screen and (max-width: 540px){
     div.menu2{
         display: none;
     }
+    /*start menu hamburger*/
     div.header2{
         width: 100%;
         height: 90px;
@@ -494,4 +497,5 @@
     div.header2>input#menu2:checked ~ div.menuphone2{
         left: 0;
     }
+    /*end menu hamburger*/
 }

@@ -3,20 +3,24 @@
         width: 100%;
         height:50px;
         background-color: black;
-        padding-top: 10px;
-        padding-bottom: 10px;
         box-sizing: content-box;
+        padding: 5px 0;
+        cursor: pointer;
     }
     div.reserved>h1{
         text-align: center;
         color: white;
         text-transform: capitalize;
-        font-size: 20px;
+        font-size: 22px;
         line-height: 50px;
         font-family: "roboto light";
     }
     div.reserved>h1>i{
         padding-left: 10px;
+        transition: all 300ms linear;
+    }
+    div.reserved:hover>h1>i{
+        color: #0099ff;
     }
 }
 @media only screen and (min-width: 990px) and (max-width: 1200px){
@@ -24,9 +28,10 @@
         width: 100%;
         height:50px;
         background-color: black;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
         box-sizing: content-box;
+        cursor: pointer;
     }
     div.reserved>h1{
         text-align: center;
@@ -38,6 +43,10 @@
     }
     div.reserved>h1>i{
         padding-left: 10px;
+        transition: all 300ms linear;
+    }
+    div.reserved:hover>h1>i{
+        color: #0099ff;
     }
 }
 @media only screen and (min-width:768px ) and (max-width: 990px) {
@@ -45,9 +54,9 @@
         width: 100%;
         height:50px;
         background-color: black;
-        padding-top: 10px;
-        padding-bottom: 10px;
         box-sizing: content-box;
+        padding: 5px 0;
+        cursor: pointer;
     }
     div.reserved>h1{
         text-align: center;
@@ -59,6 +68,10 @@
     }
     div.reserved>h1>i{
         padding-left: 10px;
+        transition: all 300ms linear;
+    }
+    div.reserved:hover>h1>i{
+        color: #0099ff;
     }
 }
 @media only screen and (min-width: 540px) and (max-width:768px ){
@@ -66,20 +79,24 @@
         width: 100%;
         height:50px;
         background-color: black;
-        padding-top: 10px;
-        padding-bottom: 10px;
         box-sizing: content-box;
+        padding: 3px 0;
+        cursor: pointer;
     }
     div.reserved>h1{
         text-align: center;
         color: white;
         text-transform: capitalize;
-        font-size: 20px;
+        font-size: 18px;
         line-height: 50px;
         font-family: "roboto light";
     }
     div.reserved>h1>i{
         padding-left: 10px;
+        transition: all 300ms linear;
+    }
+    div.reserved:hover>h1>i{
+        color: #0099ff;
     }
 }
 @media only screen and (max-width: 540px){
@@ -87,19 +104,23 @@
         width: 100%;
         height:50px;
         background-color: black;
-        padding-top: 10px;
-        padding-bottom: 10px;
         box-sizing: content-box;
+        cursor: pointer;
     }
     div.reserved>h1{
         text-align: center;
         color: white;
         text-transform: capitalize;
-        font-size: 20px;
+        font-size: 16px;
         line-height: 50px;
         font-family: "roboto light";
+        padding: 2px 0;
     }
     div.reserved>h1>i{
         padding-left: 10px;
+        transition: all 300ms linear;
+    }
+    div.reserved:hover>h1>i{
+        color: #0099ff;
     }
 }

@@ -7,6 +7,7 @@
         background-size: cover;
         background-blend-mode: multiply;
         padding-bottom: 150px;
+        box-sizing: content-box;
     }
     div.products>h1{
         width: 100%;
@@ -32,10 +33,11 @@
         background-color: white;
         width: 25%;
         height: inherit;
-        margin: 0 10px;
+        margin: 0 20px;
         position: relative;
         overflow: hidden;
         cursor: pointer;
+        box-shadow: 5px 5px 5px black;
     }
     div.products>div>div>img{
         width: 100%;
@@ -68,6 +70,7 @@
         margin: 0 2%;
         background-color: rgba(0, 0, 0, 0.5);
         cursor: pointer;
+        box-shadow: inset 2px 2px 5px #0099ff,inset -2px -2px 5px #0099ff;
     }
     div.products>div>div>div.cover>div.top>div>i{
         font-size: 25px;
@@ -82,6 +85,7 @@
         top: 55%;
         left: calc(50% - 68%/2);
         cursor: pointer;
+        box-shadow: inset 2px 2px 5px #0099ff,inset -2px -2px 5px #0099ff;
     }
     div.products>div>div>div.cover>div.bottom>h1{
         text-align: center;
@@ -144,7 +148,7 @@
     div.products{
         width: 100%;
         height: auto;
-        padding-top: 100px;
+        padding-top: 95px;
         background:linear-gradient(to bottom,rgba(51,51,51,0.5),rgba(51,51,51,05)), url("../images/back ground.jpg") no-repeat center center fixed;
         background-size: cover;
         background-blend-mode: multiply;
@@ -157,7 +161,7 @@
         color: white;
         text-transform: uppercase;
         font-family: "roboto regular";
-        font-size: 36px;
+        font-size: 34px;
         margin-bottom: 120px;
         box-sizing: content-box;
     }
@@ -172,12 +176,13 @@
     }
     div.products>div>div{
         background-color: white;
-        width: 27%;
+        width: 26%;
         height: inherit;
-        margin: 0 10px;
+        margin: 0 15px;
         position: relative;
         overflow: hidden;
         cursor: pointer;
+        box-shadow: 5px 5px 5px black;
     }
     div.products>div>div>img{
         width: 100%;
@@ -210,6 +215,7 @@
         margin: 0 2%;
         background-color: rgba(0, 0, 0, 0.5);
         cursor: pointer;
+        box-shadow: inset 2px 2px 5px #0099ff,inset -2px -2px 5px #0099ff;
     }
     div.products>div>div>div.cover>div.top>div>i{
         font-size: 25px;
@@ -224,6 +230,7 @@
         top: 55%;
         left: calc(50% - 68%/2);
         cursor: pointer;
+        box-shadow: inset 2px 2px 5px #0099ff,inset -2px -2px 5px #0099ff;
     }
     div.products>div>div>div.cover>div.bottom>h1{
         text-align: center;
@@ -308,18 +315,19 @@
     }
     div.products>div{
         width: 100%;
-        height: 400px;
+        height: 350px;
         display: flex;
         justify-content: center;
     }
     div.products>div>div{
         background-color: white;
-        width: 30%;
+        width: 28%;
         height: inherit;
-        margin: 0 10px;
+        margin: 0 15px;
         position: relative;
         overflow: hidden;
         cursor: pointer;
+        box-shadow: 5px 5px 5px black;
     }
     div.products>div>div>img{
         width: 100%;
@@ -352,6 +360,7 @@
         margin: 0 2%;
         background-color: rgba(0, 0, 0, 0.5);
         cursor: pointer;
+        box-shadow: inset 2px 2px 5px #0099ff,inset -2px -2px 5px #0099ff;
     }
     div.products>div>div>div.cover>div.top>div>i{
         font-size: 25px;
@@ -366,6 +375,7 @@
         top: 55%;
         left: calc(50% - 68%/2);
         cursor: pointer;
+        box-shadow: inset 2px 2px 5px #0099ff,inset -2px -2px 5px #0099ff;
     }
     div.products>div>div>div.cover>div.bottom>h1{
         text-align: center;
@@ -428,11 +438,11 @@
     div.products{
         width: 100%;
         height: auto;
-        padding-top: 75px;
+        padding-top: 50px;
         background:linear-gradient(to bottom,rgba(51,51,51,0.5),rgba(51,51,51,05)), url("../images/back ground.jpg") no-repeat center center fixed;
         background-size: cover;
         background-blend-mode: multiply;
-        padding-bottom: 100px;
+        padding-bottom: 60px;
     }
     div.products>h1{
         width: 100%;
@@ -442,7 +452,7 @@
         text-transform: uppercase;
         font-family: "roboto regular";
         font-size: 36px;
-        margin-bottom: 90px;
+        margin-bottom: 60px;
         box-sizing: content-box;
     }
     div.products>h1>span{
@@ -457,13 +467,14 @@
     }
     div.products>div>div{
         background-color: white;
-        width: 50%;
-        height: 400px;
+        width: 45%;
+        height: 375px;
         margin: 25px 0;
         position: relative;
         overflow: hidden;
         cursor: pointer;
         align-self: center;
+        box-shadow: 5px 5px 5px black;
     }
     div.products>div>div>img{
         width: 100%;
@@ -496,6 +507,7 @@
         margin: 0 2%;
         background-color: rgba(0, 0, 0, 0.5);
         cursor: pointer;
+        box-shadow: inset 2px 2px 5px #0099ff,inset -2px -2px 5px #0099ff;
     }
     div.products>div>div>div.cover>div.top>div>i{
         font-size: 25px;
@@ -510,6 +522,7 @@
         top: 55%;
         left: calc(50% - 68%/2);
         cursor: pointer;
+        box-shadow: inset 2px 2px 5px #0099ff,inset -2px -2px 5px #0099ff;
     }
     div.products>div>div>div.cover>div.bottom>h1{
         text-align: center;
@@ -534,7 +547,6 @@
         bottom: 0;
         padding-left: 15px;
         transition: all 300ms linear;
-
     }
     div.products>div>div>div.price>h1{
         font-family: "myriad pro regular";
@@ -572,11 +584,11 @@
     div.products{
         width: 100%;
         height: auto;
-        padding-top: 75px;
+        padding-top: 40px;
         background:linear-gradient(to bottom,rgba(51,51,51,0.5),rgba(51,51,51,05)), url("../images/back ground.jpg") no-repeat center center fixed;
         background-size: cover;
         background-blend-mode: multiply;
-        padding-bottom: 100px;
+        padding-bottom: 50px;
     }
     div.products>h1{
         width: 100%;
@@ -586,7 +598,7 @@
         text-transform: uppercase;
         font-family: "roboto regular";
         font-size: 36px;
-        margin-bottom: 90px;
+        margin-bottom: 50px;
         box-sizing: content-box;
     }
     div.products>h1>span{
@@ -601,13 +613,14 @@
     }
     div.products>div>div{
         background-color: white;
-        width: 65%;
-        height: 350px;
+        width: 55%;
+        height: 325px;
         margin: 25px 0;
         position: relative;
         overflow: hidden;
         cursor: pointer;
         align-self: center;
+        box-shadow: 5px 5px 5px black;
     }
     div.products>div>div>img{
         width: 100%;
@@ -640,6 +653,7 @@
         margin: 0 2%;
         background-color: rgba(0, 0, 0, 0.5);
         cursor: pointer;
+        box-shadow: inset 2px 2px 5px #0099ff,inset -2px -2px 5px #0099ff;
     }
     div.products>div>div>div.cover>div.top>div>i{
         font-size: 25px;
@@ -654,6 +668,7 @@
         top: 55%;
         left: calc(50% - 68%/2);
         cursor: pointer;
+        box-shadow: inset 2px 2px 5px #0099ff,inset -2px -2px 5px #0099ff;
     }
     div.products>div>div>div.cover>div.bottom>h1{
         text-align: center;

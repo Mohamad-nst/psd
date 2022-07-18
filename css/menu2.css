@@ -3,6 +3,7 @@
         width: 100%;
         height: 90px;
         display: flex;
+        transition: all 300ms linear;
     }
     div.menu2>div.left{
         width: 40%;
@@ -80,6 +81,7 @@
         width: 100%;
         height: 90px;
         display: flex;
+        transition: all 300ms linear;
     }
     div.menu2>div.left{
         width: 35%;
@@ -158,6 +160,7 @@
         width: 100%;
         height: 90px;
         display: flex;
+        transition: all 300ms linear;
     }
     div.menu2>div.left{
         width: 25%;
@@ -240,6 +243,7 @@
         width: 100%;
         height: 90px;
         position: relative;
+        transition: all 300ms linear;
     }
     div.header2>div.left{
         width:20%;
@@ -374,6 +378,7 @@
         width: 100%;
         height: 90px;
         position: relative;
+        transition: all 300ms linear;
     }
     div.header2>div.left{
         width:20%;

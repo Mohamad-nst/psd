@@ -42,7 +42,6 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
-        cursor: pointer;
     }
     div.collection>div>div>div.price{
         width: 100%;
@@ -109,7 +108,7 @@
         margin: 0 2%;
         background-color: rgba(0, 0, 0, 0.5);
         cursor: pointer;
-        box-shadow: inset 2px 2px 5px #0099ff,inset -2px -2px 5px #0099ff;
+        transition: all 300ms linear;
     }
     div.collection>div>div>div.cover>div.top>div>i{
         font-size: 25px;
@@ -124,7 +123,7 @@
         top: 55%;
         left: calc(50% - 68%/2);
         cursor: pointer;
-        box-shadow: inset 2px 2px 5px #0099ff,inset -2px -2px 5px #0099ff;
+        transition: all 300ms linear;
     }
     div.collection>div>div>div.cover>div.bottom>h1{
         text-align: center;
@@ -145,6 +144,9 @@
     }
     div.collection>div>div:hover>div.price>div.dolar{
         background-color: #99cccc;
+    }
+    div.collection>div>div>div.cover>div.top>div:hover,div.collection>div>div>div.cover>div.bottom:hover{
+        box-shadow: inset 2px 2px 5px #0099ff,inset -2px -2px 5px #0099ff;
     }
 }
 @media only screen and (min-width: 990px) and (max-width: 1200px){
@@ -191,7 +193,6 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
-        cursor: pointer;
     }
     div.collection>div>div>div.price{
         width: 100%;
@@ -258,10 +259,10 @@
         margin: 0 2%;
         background-color: rgba(0, 0, 0, 0.5);
         cursor: pointer;
-        box-shadow: inset 2px 2px 5px #0099ff,inset -2px -2px 5px #0099ff;
+        transition: all 300ms linear;
     }
     div.collection>div>div>div.cover>div.top>div>i{
-        font-size: 25px;
+        font-size: 22px;
         line-height: 50px;
         color: white;
     }
@@ -273,18 +274,18 @@
         top: 55%;
         left: calc(50% - 68%/2);
         cursor: pointer;
-        box-shadow: inset 2px 2px 5px #0099ff,inset -2px -2px 5px #0099ff;
+        transition: all 300ms linear;
     }
     div.collection>div>div>div.cover>div.bottom>h1{
         text-align: center;
-        font-size: 20px;
+        font-size: 18px;
         line-height: 50px;
         font-family: "myriad pro regular";
         color: white;
         text-transform: uppercase;
     }
     div.collection>div>div>div.cover>div.bottom>h1>i{
-        padding-right: 15px;
+        padding-right: 10px;
     }
     div.collection>div>div:hover>div.cover{
         left: 0;
@@ -294,6 +295,9 @@
     }
     div.collection>div>div:hover>div.price>div.dolar{
         background-color: #99cccc;
+    }
+    div.collection>div>div>div.cover>div.top>div:hover,div.collection>div>div>div.cover>div.bottom:hover{
+        box-shadow: inset 2px 2px 5px #0099ff,inset -2px -2px 5px #0099ff;
     }
 }
 @media only screen and (min-width: 768px) and (max-width: 990px){
@@ -340,7 +344,6 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
-        cursor: pointer;
     }
     div.collection>div>div>div.price{
         width: 100%;
@@ -407,10 +410,10 @@
         margin: 0 2%;
         background-color: rgba(0, 0, 0, 0.5);
         cursor: pointer;
-        box-shadow: inset 2px 2px 5px #0099ff,inset -2px -2px 5px #0099ff;
+        transition: all 300ms linear;
     }
     div.collection>div>div>div.cover>div.top>div>i{
-        font-size: 25px;
+        font-size: 20px;
         line-height: 50px;
         color: white;
     }
@@ -422,18 +425,18 @@
         top: 55%;
         left: calc(50% - 68%/2);
         cursor: pointer;
-        box-shadow: inset 2px 2px 5px #0099ff,inset -2px -2px 5px #0099ff;
+        transition: all 300ms linear;
     }
     div.collection>div>div>div.cover>div.bottom>h1{
         text-align: center;
-        font-size: 20px;
+        font-size: 14px;
         line-height: 50px;
         font-family: "myriad pro regular";
         color: white;
         text-transform: uppercase;
     }
     div.collection>div>div>div.cover>div.bottom>h1>i{
-        padding-right: 15px;
+        padding-right: 5px;
     }
     div.collection>div>div:hover>div.cover{
         left: 0;
@@ -443,6 +446,9 @@
     }
     div.collection>div>div:hover>div.price>div.dolar{
         background-color: #99cccc;
+    }
+    div.collection>div>div>div.cover>div.top>div:hover,div.collection>div>div>div.cover>div.bottom:hover{
+        box-shadow: inset 2px 2px 5px #0099ff,inset -2px -2px 5px #0099ff;
     }
 }
 @media only screen and (min-width: 540px) and (max-width: 768px){
@@ -491,7 +497,6 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
-        cursor: pointer;
     }
     div.collection>div>div>div.price{
         width: 100%;
@@ -558,7 +563,7 @@
         margin: 0 2%;
         background-color: rgba(0, 0, 0, 0.5);
         cursor: pointer;
-        box-shadow: inset 2px 2px 5px #0099ff,inset -2px -2px 5px #0099ff;
+        transition: all 300ms linear;
     }
     div.collection>div>div>div.cover>div.top>div>i{
         font-size: 25px;
@@ -573,7 +578,7 @@
         top: 55%;
         left: calc(50% - 68%/2);
         cursor: pointer;
-        box-shadow: inset 2px 2px 5px #0099ff,inset -2px -2px 5px #0099ff;
+        transition: all 300ms linear;
     }
     div.collection>div>div>div.cover>div.bottom>h1{
         text-align: center;
@@ -594,6 +599,9 @@
     }
     div.collection>div>div:hover>div.price>div.dolar{
         background-color: #99cccc;
+    }
+    div.collection>div>div>div.cover>div.top>div:hover,div.collection>div>div>div.cover>div.bottom:hover{
+        box-shadow: inset 2px 2px 5px #0099ff,inset -2px -2px 5px #0099ff;
     }
 }
 @media only screen and (max-width: 540px){
@@ -642,7 +650,6 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
-        cursor: pointer;
     }
     div.collection>div>div>div.price{
         width: 100%;
@@ -709,7 +716,7 @@
         margin: 0 2%;
         background-color: rgba(0, 0, 0, 0.5);
         cursor: pointer;
-        box-shadow: inset 2px 2px 5px #0099ff,inset -2px -2px 5px #0099ff;
+        transition: all 300ms linear;
     }
     div.collection>div>div>div.cover>div.top>div>i{
         font-size: 25px;
@@ -724,7 +731,7 @@
         top: 55%;
         left: calc(50% - 68%/2);
         cursor: pointer;
-        box-shadow: inset 2px 2px 5px #0099ff,inset -2px -2px 5px #0099ff;
+        transition: all 300ms linear;
     }
     div.collection>div>div>div.cover>div.bottom>h1{
         text-align: center;
@@ -745,5 +752,8 @@
     }
     div.collection>div>div:hover>div.price>div.dolar{
         background-color: #99cccc;
+    }
+    div.collection>div>div>div.cover>div.top>div:hover,div.collection>div>div>div.cover>div.bottom:hover{
+        box-shadow: inset 2px 2px 5px #0099ff,inset -2px -2px 5px #0099ff;
     }
 }

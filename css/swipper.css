@@ -33,13 +33,14 @@
         -ms-flex-align: center;
         -webkit-align-items: center;
         align-items: center;
+        position: absolute;
     }
     .swiper-slide> img {
         display: block;
         width: 100%;
         height: 100%;
         object-fit: cover;
-        opacity: 100%;
+        filter: brightness(40%);
     }
     div.swiper-button-next,div.swiper-button-prev{
         color: white;
@@ -53,7 +54,12 @@
         font-family: "roboto regular";
         bottom: 3%;
     }
-    div.swiper-slide>h1{
+    div.swiper-slide>div.text{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+    div.swiper-slide>div.text>h1{
         position: absolute;
         width: 100%;
         height: auto;
@@ -65,22 +71,22 @@
         font-size: 56px;
         font-family: "Roboto Thin";
     }
-    div.swiper-slide>h1:nth-of-type(2){
+    div.swiper-slide>div.text>h1:nth-of-type(2){
         top: 43%;
         font-size: 56px;
         font-family: "roboto light";
     }
-    div.swiper-slide>h1:nth-of-type(1)>span{
+    div.swiper-slide>div.text>h1:nth-of-type(1)>span{
         color: #0099ff;
         font-size: 56px;
         font-family: "Roboto Thin";
     }
-    div.swiper-slide>h1:nth-of-type(2)>span{
+    div.swiper-slide>div.text>h1:nth-of-type(2)>span{
         color: #0099ff;
         font-size: 56px;
         font-family: "roboto light";
     }
-    div.swiper-slide>p{
+    div.swiper-slide>div.text>p{
         position: absolute;
         width: 60%;
         height: auto;
@@ -90,6 +96,7 @@
         color: white;
         font-family: "roboto regular";
         font-size: 18px;
+        left:20% ;
     }
 }
 @media only screen and (min-width: 990px) and (max-width: 1200px){
@@ -133,7 +140,7 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
-        background-color: #666666;
+        filter: brightness(40%);
     }
     div.swiper-button-next,div.swiper-button-prev{
         color: white;
@@ -147,7 +154,12 @@
         font-size: 24px;
         font-family: "roboto regular";
     }
-    div.swiper-slide>h1{
+    div.swiper-slide>div.text{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+    div.swiper-slide>div.text>h1{
         position: absolute;
         width: 100%;
         height: auto;
@@ -159,22 +171,22 @@
         font-size: 52px;
         font-family: "Roboto Thin";
     }
-    div.swiper-slide>h1:nth-of-type(2){
+    div.swiper-slide>div.text>h1:nth-of-type(2){
         top: 43%;
         font-size: 48px;
         font-family: "roboto light";
     }
-    div.swiper-slide>h1:nth-of-type(1)>span{
+    div.swiper-slide>div.text>h1:nth-of-type(1)>span{
         color: #0099ff;
         font-size: 52px;
         font-family: "Roboto Thin";
     }
-    div.swiper-slide>h1:nth-of-type(2)>span{
+    div.swiper-slide>div.text>h1:nth-of-type(2)>span{
         color: #0099ff;
         font-size: 52px;
         font-family: "roboto light";
     }
-    div.swiper-slide>p{
+    div.swiper-slide>div.text>p{
         position: absolute;
         width: 65%;
         height: auto;
@@ -184,6 +196,7 @@
         color: white;
         font-family: "roboto regular";
         font-size: 18px;
+        left:calc(50% - 65%/2);
     }
 }
 @media only screen and (min-width: 768px) and (max-width: 990px){
@@ -227,7 +240,7 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
-        background-color: #666666;
+        filter: brightness(40%);
     }
     div.swiper-button-next,div.swiper-button-prev{
         color: white;
@@ -241,7 +254,12 @@
         font-size: 24px;
         font-family: "roboto regular";
     }
-    div.swiper-slide>h1{
+    div.swiper-slide>div.text{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+    div.swiper-slide>div.text>h1{
         position: absolute;
         width: 100%;
         height: auto;
@@ -253,22 +271,22 @@
         font-size: 48px;
         font-family: "Roboto Thin";
     }
-    div.swiper-slide>h1:nth-of-type(2){
+    div.swiper-slide>div.text>h1:nth-of-type(2){
         top:43%;
         font-size: 42px;
         font-family: "roboto light";
     }
-    div.swiper-slide>h1:nth-of-type(1)>span{
+    div.swiper-slide>div.text>h1:nth-of-type(1)>span{
         color: #0099ff;
         font-size: 48px;
         font-family: "Roboto Thin";
     }
-    div.swiper-slide>h1:nth-of-type(2)>span{
+    div.swiper-slide>div.text>h1:nth-of-type(2)>span{
         color: #0099ff;
         font-size: 48px;
         font-family: "roboto light";
     }
-    div.swiper-slide>p{
+    div.swiper-slide>div.text>p{
         position: absolute;
         width: 75%;
         height: auto;
@@ -278,6 +296,7 @@
         color:white;
         font-family: "roboto regular";
         font-size: 16px;
+        left:calc(50% - 75%/2);
     }
 }
 @media only screen and (min-width: 540px) and (max-width: 768px){
@@ -322,6 +341,7 @@
         height: 100%;
         object-fit: cover;
         background-color: #666666;
+        filter: brightness(40%);
     }
     div.swiper-button-next,div.swiper-button-prev{
         color: white;
@@ -335,7 +355,12 @@
         font-size: 24px;
         font-family: "roboto regular";
     }
-    div.swiper-slide>h1{
+    div.swiper-slide>div.text{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+    div.swiper-slide>div.text>h1{
         position: absolute;
         width: 100%;
         height: auto;
@@ -347,22 +372,22 @@
         font-size: 30px;
         font-family: "Roboto Thin";
     }
-    div.swiper-slide>h1:nth-of-type(2){
+    div.swiper-slide>div.text>h1:nth-of-type(2){
         top: 40%;
         font-size: 34px;
         font-family: "roboto light";
     }
-    div.swiper-slide>h1:nth-of-type(1)>span{
+    div.swiper-slide>div.text>h1:nth-of-type(1)>span{
         color: #0099ff;
         font-size: 30px;
         font-family: "Roboto Thin";
     }
-    div.swiper-slide>h1:nth-of-type(2)>span{
+    div.swiper-slide>div.text>h1:nth-of-type(2)>span{
         color: #0099ff;
         font-size: 34px;
         font-family: "roboto light";
     }
-    div.swiper-slide>p{
+    div.swiper-slide>div.text>p{
         position: absolute;
         width: 80%;
         height: auto;
@@ -372,6 +397,7 @@
         color:white;
         font-family: "roboto regular";
         font-size: 14px;
+        left: 10%;
     }
 }
 @media only screen and (max-width: 540px){
@@ -416,6 +442,7 @@
         height: 100%;
         object-fit: cover;
         background-color: #666666;
+        filter: brightness(40%);
     }
     div.swiper-button-next,div.swiper-button-prev{
         color: white;
@@ -429,7 +456,12 @@
         font-size: 24px;
         font-family: "roboto regular";
     }
-    div.swiper-slide>h1{
+    div.swiper-slide>div.text{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+    div.swiper-slide>div.text>h1{
         position: absolute;
         width: 100%;
         height: auto;
@@ -441,22 +473,22 @@
         font-size: 26px;
         font-family: "Roboto Thin";
     }
-    div.swiper-slide>h1:nth-of-type(2){
+    div.swiper-slide>div.text>h1:nth-of-type(2){
         top: 40%;
         font-size: 30px;
         font-family: "roboto light";
     }
-    div.swiper-slide>h1:nth-of-type(1)>span{
+    div.swiper-slide>div.text>h1:nth-of-type(1)>span{
         color: #0099ff;
         font-size: 26px;
         font-family: "Roboto Thin";
     }
-    div.swiper-slide>h1:nth-of-type(2)>span{
+    div.swiper-slide>div.text>h1:nth-of-type(2)>span{
         color: #0099ff;
         font-size: 30px;
         font-family: "roboto light";
     }
-    div.swiper-slide>p{
+    div.swiper-slide>div.text>p{
         position: absolute;
         width: 90%;
         height: auto;
@@ -466,5 +498,6 @@
         color:white;
         font-family: "roboto regular";
         font-size: 14px;
+        left: 5%;
     }
 }

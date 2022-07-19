@@ -300,6 +300,7 @@
     div.header>label>i{
         line-height: 40px;
         font-size: 25px;
+        color: #0099ff;
     }
     div.header>input#menu1{
         display: none;
@@ -315,9 +316,9 @@
         border-radius: 50%;
         line-height: 40px;
         text-align: center;
-        font-size: 25px;
+        font-size: 30px;
         cursor: pointer;
-        color: black;
+        color:#0099ff;
     }
     div.header>input#close{
         display: none;
@@ -427,6 +428,7 @@
     div.header>label>i{
         line-height: 40px;
         font-size: 25px;
+        color: #0099ff;
     }
     div.header>input#menu1{
         display: none;
@@ -442,9 +444,9 @@
         border-radius: 50%;
         line-height: 40px;
         text-align: center;
-        font-size: 25px;
+        font-size: 30px;
         cursor: pointer;
-        color: black;
+        color: #0099ff;
     }
     div.header>input#close{
         display: none;
